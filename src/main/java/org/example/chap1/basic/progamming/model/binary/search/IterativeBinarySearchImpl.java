@@ -1,4 +1,4 @@
-package org.example.chap1.basic.progamming.model;
+package org.example.chap1.basic.progamming.model.binary.search;
 
 public class IterativeBinarySearchImpl {
 
