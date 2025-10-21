@@ -10,7 +10,7 @@ public class IterativeBinarySearchImpl {
     }
 
     public static int rank(int[] arr, int target) {
-        if(arr.length == 0) {
+        if(arr == null || arr.length == 0) {
             return -1;
         } else {
             int i=0;

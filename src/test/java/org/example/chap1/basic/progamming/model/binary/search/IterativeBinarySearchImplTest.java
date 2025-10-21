@@ -83,4 +83,11 @@ public class IterativeBinarySearchImplTest {
 
         assertEquals(0, rank);
     }
+
+    @Test
+    public void test_rankNullArray_NoResult() {
+        int rank = IterativeBinarySearchImpl.rank(null, 20);
+
+        assertEquals(-1, rank);
+    }
 }
